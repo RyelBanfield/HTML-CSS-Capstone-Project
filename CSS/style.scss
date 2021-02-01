@@ -1,0 +1,194 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid black;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  color: $primaryColor;
+  background-image: url(/Assets/background-img.jpg);
+
+  nav {
+    i {
+      font-size: 30px;
+      padding: 15px;
+    }
+
+    @media (min-width: 768px) {
+      align-items: center;
+      padding: 10px 10px 5px 10px;
+    }
+
+    a {
+      img {
+        width: 25%;
+      }
+    }
+
+    div {
+      a {
+        text-decoration: none;
+        color: $primaryColor;
+        padding: 15px;
+      }
+    }
+  }
+
+  .top-section {
+    color: $secondaryColor;
+    padding: 15px;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+  }
+
+  .top-mid-section {
+    padding: 15px;
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+  }
+
+  .top-lower-section {
+    padding: 15px;
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 1.25rem;
+      font-weight: 900;
+    }
+
+    h4 {
+      font-weight: 400;
+    }
+  }
+}
+
+.the-program {
+  background-color: $primaryColor;
+  color: $tertiaryColor;
+  padding: 15px;
+
+  .the-program-h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .the-program-p {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  hr {
+    color: $secondaryColor;
+    width: 20%;
+    height: 2px;
+    margin: 5px auto 15px auto;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 15px 0;
+
+    i {
+      font-size: 20px;
+      padding: 5px;
+      flex: 1;
+    }
+
+    h5 {
+      color: $secondaryColor;
+      font-size: 10px;
+      padding: 5px;
+      flex: 2;
+    }
+
+    p {
+      text-align: left;
+      font-size: 14px;
+      padding: 5px;
+      flex: 5;
+    }
+  }
+
+  @media (min-width: 768px) {
+    div {
+      flex-direction: column;
+    }
+  }
+
+  button {
+    background-color: $secondaryColor;
+    display: block;
+    width: 70%;
+    height: 80px;
+    margin: 15px auto;
+  }
+}
+
+.grad-students {
+  padding: 15px;
+
+  .grad-students-h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  hr {
+    color: $secondaryColor;
+    width: 20%;
+    height: 2px;
+    margin: 5px auto 15px auto;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+
+    div {
+      padding: 10px;
+      align-items: flex-start;
+      flex-direction: column;
+
+      h6 {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      hr {
+        color: $primaryColor;
+        width: 20px;
+        margin: 0 auto 5px 0;
+      }
+
+      p {
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}
