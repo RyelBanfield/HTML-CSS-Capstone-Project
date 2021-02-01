@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://ryelbanfield.github.io/HTML-CSS-Capstone-Project/)
+[Click here to view the website](https://ryelbanfield.github.io/HTML-CSS-Capstone-Project/)
 
 ## Authors
 
