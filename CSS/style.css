@@ -309,7 +309,7 @@ header {
 .mid-lower-section .div-html-background {
   box-shadow: inset 0 0 0 1000px #ec524280;
   color: white;
-  background-image: url(/Assets/img-1.jpg);
+  background-image: url(../Assets/img-1.jpg);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -331,7 +331,7 @@ header {
 .mid-lower-section .div-peer-background {
   box-shadow: inset 0 0 0 1000px #ec524280;
   color: white;
-  background-image: url(/Assets/img-2.jpg);
+  background-image: url(../Assets/img-2.jpg);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
