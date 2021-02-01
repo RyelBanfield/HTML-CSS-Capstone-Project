@@ -240,6 +240,27 @@ header nav div a {
   padding-bottom: 20px;
 }
 
+.bottom-footer {
+  display: flex;
+}
+
+.bottom-footer img {
+  width: 50%;
+  flex: 1;
+}
+
+.bottom-footer .copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.bottom-footer .copyright p {
+  font-size: 12px;
+  margin: 0;
+}
+
 header {
   padding-bottom: 15px;
 }
