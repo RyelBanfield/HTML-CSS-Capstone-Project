@@ -64,7 +64,7 @@ header .top-mid-section p {
 }
 
 header .top-lower-section {
-  padding: 5px 15px;
+  padding: 5px 15px 15px 15px;
 }
 
 header .top-lower-section h3 {
@@ -80,7 +80,7 @@ header .top-lower-section h4 {
 .the-program {
   background-color: #272a31;
   color: #d3d3d3;
-  padding: 10px 15px;
+  padding: 15px;
 }
 
 .the-program .the-program-h1 {
@@ -104,27 +104,28 @@ header .top-lower-section h4 {
 .the-program div {
   display: flex;
   align-items: center;
-  height: 150px;
-  margin: 15px 0;
+  height: 110px;
+  margin: 10px 0;
+  padding: 0;
+  background-color: rgba(90, 90, 90, 0.226);
 }
 
 .the-program div i {
   font-size: 20px;
-  padding: 5px;
+  padding: 0 0 0 15px;
   flex: 1;
 }
 
 .the-program div h5 {
   color: #ec5242;
   font-size: 10px;
-  padding: 5px;
   flex: 2;
 }
 
 .the-program div p {
   text-align: left;
-  font-size: 14px;
-  padding: 5px;
+  font-size: 13px;
+  padding-right: 10px;
   flex: 5;
 }
 
@@ -190,5 +191,14 @@ header .top-lower-section h4 {
 .grad-students div div p {
   font-size: 12px;
   font-weight: 500;
+}
+
+.more button {
+  background-color: white;
+  display: block;
+  width: 85%;
+  height: 45px;
+  margin: 0 auto 10px auto;
+  border: 1px solid #ec5242;
 }
 /*# sourceMappingURL=style.css.map */
