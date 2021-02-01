@@ -17,11 +17,18 @@
 <body>
    <header>
       <nav class="d-md-flex justify-content-between">
-         <i class="fas fa-bars d-md-none"></i>
+         <a class="d-md-none" href="#" data-bs-toggle="dropdown">
+            <i class="fas fa-bars "></i>
+         </a>
          <a class="d-none d-md-inline" href="#">
             <img src="/Assets/logo-trans.png" alt="LOGO">
          </a>
-         <div>
+         <div class="mobile-nav dropdown-menu">
+            <a class="d-md-inline dropdown-item" href="/index.html">Home</a>
+            <a class="d-md-inline dropdown-item" href="/HTML/about.html">About</a>
+            <a class="d-md-inline dropdown-item" href="/HTML/signup.html">Sign Up</a>
+         </div>
+         <div class="desktop-nav">
             <a class="d-none d-md-inline" href="/index.html">Home</a>
             <a class="d-none d-md-inline" href="/HTML/about.html">About</a>
             <a class="d-none d-md-inline" href="/HTML/signup.html">Sign Up</a>
@@ -103,7 +110,7 @@
       </div>
    </div>
    <div class="more">
-      <a class="more-button" href="/HTML/about.html">
+      <a href="/HTML/about.html">
          MORE <i class="fas fa-chevron-down"></i>
       </a>
    </div>
