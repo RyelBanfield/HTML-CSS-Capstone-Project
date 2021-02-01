@@ -26,43 +26,43 @@ header nav div a {
   padding: 15px;
 }
 
-header .top-section {
+.top-section {
   color: #ec5242;
   padding: 5px 15px;
 }
 
-header .top-section h1 {
+.top-section h1 {
   font-size: 20px;
   font-weight: 600;
 }
 
-header .top-section h2 {
+.top-section h2 {
   font-size: 1.5rem;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "cocogoose", sans-serif;
 }
 
-header .top-mid-section {
+.top-mid-section {
   padding: 5px 15px;
 }
 
-header .top-mid-section p {
+.top-mid-section p {
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-header .top-lower-section {
+.top-lower-section {
   padding: 5px 15px 15px 15px;
 }
 
-header .top-lower-section h3 {
+.top-lower-section h3 {
   text-transform: uppercase;
   font-size: 1.25rem;
   font-weight: 900;
 }
 
-header .top-lower-section h4 {
+.top-lower-section h4 {
   font-weight: 400;
 }
 
@@ -72,13 +72,13 @@ header .top-lower-section h4 {
   padding: 15px;
 }
 
-.the-program .the-program-h1 {
+.the-program h1 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
 }
 
-.the-program .the-program-p {
+.the-program p {
   text-align: center;
   padding-top: 5px;
 }
@@ -88,34 +88,6 @@ header .top-lower-section h4 {
   width: 20%;
   height: 2px;
   margin: 5px auto 15px auto;
-}
-
-.the-program div {
-  display: flex;
-  align-items: center;
-  height: 110px;
-  margin: 10px 0;
-  padding: 0;
-  background-color: rgba(90, 90, 90, 0.226);
-}
-
-.the-program div i {
-  font-size: 20px;
-  padding: 0 0 0 15px;
-  flex: 1;
-}
-
-.the-program div h5 {
-  color: #ec5242;
-  font-size: 10px;
-  flex: 2;
-}
-
-.the-program div p {
-  text-align: left;
-  font-size: 13px;
-  padding-right: 10px;
-  flex: 5;
 }
 
 @media (min-width: 768px) {
@@ -132,11 +104,39 @@ header .top-lower-section h4 {
   margin: 15px auto;
 }
 
+.program-item {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  margin: 10px 0;
+  padding: 0;
+  background-color: rgba(90, 90, 90, 0.226);
+}
+
+.program-item i {
+  font-size: 20px;
+  padding: 0 0 0 15px;
+  flex: 1;
+}
+
+.program-item h5 {
+  color: #ec5242;
+  font-size: 10px;
+  flex: 2;
+}
+
+.program-item p {
+  text-align: left;
+  font-size: 13px;
+  padding-right: 10px;
+  flex: 5;
+}
+
 .grad-students {
   padding: 15px;
 }
 
-.grad-students .grad-students-h1 {
+.grad-students h1 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
@@ -149,40 +149,40 @@ header .top-lower-section h4 {
   margin: 5px auto 15px auto;
 }
 
-.grad-students div {
+.grad-student {
   display: flex;
   align-items: center;
   margin: 5px 0;
 }
 
-.grad-students div img {
+.grad-student img {
   width: 70px;
   height: 70px;
 }
 
-.grad-students div div {
+.grad-student-text {
   padding: 10px;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.grad-students div div h6 {
+.grad-student-text h6 {
   font-size: 16px;
   font-weight: 700;
 }
 
-.grad-students div div hr {
+.grad-student-text hr {
   color: #272a31;
   width: 20px;
   margin: 0 auto 5px 0;
 }
 
-.grad-students div div p {
+.grad-student-text p {
   font-size: 12px;
   font-weight: 500;
 }
 
-.more {
+.more-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,12 +192,12 @@ header .top-lower-section h4 {
   border: 1px solid #272a31;
 }
 
-.more a {
+.more-button .more-button-link {
   text-decoration: none;
   color: #272a31;
 }
 
-.more a i {
+.more-button .more-button-link i {
   color: #ec5242;
 }
 
