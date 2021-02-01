@@ -193,12 +193,22 @@ header .top-lower-section h4 {
   font-weight: 500;
 }
 
-.more button {
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  display: block;
-  width: 85%;
-  height: 45px;
-  margin: 0 auto 10px auto;
-  border: 1px solid #ec5242;
+  height: 50px;
+  margin: 0 15px 20px 15px;
+  border: 1px solid #272a31;
+}
+
+.more a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.more a i {
+  color: #ec5242;
 }
 /*# sourceMappingURL=style.css.map */

@@ -201,12 +201,20 @@ header {
 }
 
 .more {
-  button {
-    background-color: white;
-    display: block;
-    width: 85%;
-    height: 45px;
-    margin: 0 auto 10px auto;
-    border: 1px solid $highlightColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  margin: 0 15px 20px 15px;
+  border: 1px solid $darkColor;
+
+  a {
+    text-decoration: none;
+    color: $darkColor;
+
+    i {
+      color: $highlightColor;
+    }
   }
 }
