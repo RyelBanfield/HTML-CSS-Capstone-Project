@@ -1,0 +1,49 @@
+.header-about {
+  padding-bottom: 10px;
+
+  .top-section-about {
+    color: $highlightColor;
+    padding: 5px 15px;
+    text-align: center;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-family: "cocogoose", sans-serif;
+    }
+  }
+
+  .top-mid-section-about {
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid $lightColor;
+
+    p {
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+
+  .top-lower-section-about {
+    text-align: center;
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    a {
+      color: $darkColor;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}
