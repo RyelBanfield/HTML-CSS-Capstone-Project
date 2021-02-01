@@ -1,6 +1,6 @@
 # HTML/CSS Capstone Project
 
-> This is the HTML/CSS capstone project done by Ryel Banfield.
+> This is the HTML/CSS Capstone Project for Microverse.
 
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
