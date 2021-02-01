@@ -201,6 +201,45 @@ header nav div a {
   color: #ec5242;
 }
 
+.top-footer {
+  color: #d3d3d3;
+  background-color: #272a31;
+  text-align: center;
+  padding: 15px;
+}
+
+.top-footer h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.top-footer hr {
+  color: #ec5242;
+  width: 10%;
+  height: 2px;
+  margin: 20px auto;
+}
+
+.top-footer .fab {
+  font-size: 30px;
+}
+
+.top-footer a {
+  color: #d3d3d3;
+}
+
+.top-footer .top-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.top-footer .bottom-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
 header {
   padding-bottom: 15px;
 }

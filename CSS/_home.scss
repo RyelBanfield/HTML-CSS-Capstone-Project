@@ -204,3 +204,42 @@ header {
     }
   }
 }
+
+.top-footer {
+  color: $lightColor;
+  background-color: $darkColor;
+  text-align: center;
+  padding: 15px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  hr {
+    color: $highlightColor;
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+  }
+
+  .fab {
+    font-size: 30px;
+  }
+
+  a {
+    color: $lightColor;
+  }
+
+  .top-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
+
+  .bottom-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+  }
+}
