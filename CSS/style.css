@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: local("cocogoose"), url("/Fonts/cocogoose/Cocogoose Pro-trial.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +39,7 @@ header nav div a {
 
 header .top-section {
   color: #ec5242;
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 header .top-section h1 {
@@ -46,10 +51,11 @@ header .top-section h2 {
   font-size: 1.5rem;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: "cocogoose", sans-serif;
 }
 
 header .top-mid-section {
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 header .top-mid-section p {
@@ -58,7 +64,7 @@ header .top-mid-section p {
 }
 
 header .top-lower-section {
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 header .top-lower-section h3 {
@@ -74,7 +80,7 @@ header .top-lower-section h4 {
 .the-program {
   background-color: #272a31;
   color: #d3d3d3;
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 .the-program .the-program-h1 {
