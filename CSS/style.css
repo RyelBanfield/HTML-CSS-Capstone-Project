@@ -557,8 +557,8 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
-  src: local("cocogoose"), url("../Fonts/cocogoose/Cocogoose Pro-trial.ttf");
+  font-family: "cocogoose";
+  src: local("cocogoose"), url("../Fonts/cocogoose/COCOGOOSE-PRO.REGULAR.TTF") format("truetype");
 }
 
 * {
