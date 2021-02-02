@@ -28,11 +28,6 @@ header {
       padding: 15px;
     }
 
-    @media (min-width: 768px) {
-      align-items: center;
-      padding: 10px 10px 5px 10px;
-    }
-
     a {
       img {
         width: 25%;
@@ -106,6 +101,67 @@ header {
     p {
       font-size: 12px;
       margin: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    color: $darkColor;
+    background-image: url(../Assets/background-img.jpg);
+    padding-bottom: 15px;
+
+    nav {
+      align-items: center;
+      padding: 50px;
+
+      a {
+        img {
+          width: 40%;
+        }
+      }
+    }
+  }
+
+  .top-footer {
+    padding-top: 40px;
+
+    h1 {
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    hr {
+      width: 5%;
+      height: 3px;
+      margin: 30px auto;
+    }
+
+    .fab {
+      font-size: 40px;
+    }
+
+    .top-icons {
+      padding-bottom: 35px;
+    }
+
+    .bottom-icons {
+      padding-bottom: 35px;
+    }
+  }
+
+  .bottom-footer {
+    img {
+      width: 25%;
+      flex: 1;
+    }
+
+    .copyright {
+      flex: 4;
+
+      p {
+        font-size: 18px;
+      }
     }
   }
 }

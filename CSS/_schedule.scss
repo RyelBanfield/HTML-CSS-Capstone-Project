@@ -47,3 +47,44 @@
     font-size: 15px;
   }
 }
+
+@media (min-width: 768px) {
+  .schedule-wrapper {
+    padding: 50px;
+
+    hr {
+      height: 3px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+
+  .schedule-container {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 30px 5px 20px 5px;
+
+    .row {
+      padding: 20px 10px 20px 10px;
+
+      .col-8 {
+        border-left: 2px solid $darkColor;
+      }
+    }
+  }
+
+  .schedule-header {
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

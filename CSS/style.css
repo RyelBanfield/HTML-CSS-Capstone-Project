@@ -9,7 +9,7 @@
 }
 
 .top-section h2 {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "cocogoose", sans-serif;
@@ -20,7 +20,7 @@
 }
 
 .top-mid-section p {
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -30,7 +30,7 @@
 
 .top-lower-section h3 {
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 18px;
   font-weight: 900;
 }
 
@@ -60,12 +60,6 @@
   width: 20%;
   height: 2px;
   margin: 5px auto 15px auto;
-}
-
-@media (min-width: 768px) {
-  .the-program div {
-    flex-direction: column;
-  }
 }
 
 .the-program button {
@@ -176,6 +170,109 @@
 
 .more-button .more-button-link i {
   color: #ec5242;
+}
+
+@media (min-width: 768px) {
+  .top-section {
+    padding: 50px;
+  }
+  .top-section h1 {
+    font-size: 30px;
+  }
+  .top-section h2 {
+    font-size: 30px;
+  }
+  .top-mid-section {
+    padding: 0 50px;
+  }
+  .top-mid-section p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .top-lower-section {
+    padding: 5px 50px;
+  }
+  .top-lower-section h3 {
+    font-size: 22px;
+  }
+  .the-program {
+    padding: 15px 50px;
+  }
+  .the-program h1 {
+    font-size: 28px;
+  }
+  .the-program p {
+    padding: 10px 0 10px 0;
+  }
+  .the-program hr {
+    width: 10%;
+    height: 3px;
+    margin: 20px auto 20px auto;
+  }
+  .the-program button {
+    margin: 50px auto;
+  }
+  .program-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+  }
+  .program-item {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+  }
+  .program-item i {
+    font-size: 30px;
+    padding: 0;
+    margin: 10px;
+  }
+  .program-item h5 {
+    font-size: 14px;
+  }
+  .program-item p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .grad-students {
+    padding: 50px;
+  }
+  .grad-students h1 {
+    font-size: 26px;
+  }
+  .grad-students hr {
+    width: 10%;
+    height: 3px;
+  }
+  .grad-student {
+    margin: 10px 0;
+  }
+  .grad-student img {
+    width: 100px;
+    height: 100px;
+  }
+  .grad-student-text {
+    padding: 15px;
+  }
+  .grad-student-text h6 {
+    font-size: 18px;
+  }
+  .grad-student-text small {
+    font-size: 13px;
+  }
+  .grad-student-text hr {
+    width: 30px;
+  }
+  .grad-student-text p {
+    font-size: 15px;
+  }
+  .more-button {
+    height: 60px;
+    margin: 0 80px 50px 80px;
+    border: 1px solid #272a31;
+  }
 }
 
 .top-section-about {
@@ -323,6 +420,62 @@
   font-weight: 900;
 }
 
+@media (min-width: 768px) {
+  .top-section-about {
+    padding: 50px;
+  }
+  .top-section-about h1 {
+    font-size: 30px;
+  }
+  .top-section-about h2 {
+    font-size: 30px;
+  }
+  .top-mid-section-about {
+    margin: 10px 100px;
+    padding: 20px 100px 10px 100px;
+  }
+  .top-mid-section-about p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .top-lower-section-about {
+    padding: 25px;
+  }
+  .top-lower-section-about p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .top-lower-section-about a {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .mid-top-section {
+    padding: 25px 15px 50px 15px;
+  }
+  .mid-top-section h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .mid-top-section hr {
+    width: 10%;
+    height: 3px;
+    margin: 15px auto;
+  }
+  .mid-top-section p {
+    font-size: 16px;
+  }
+  .mid-lower-section h1 {
+    font-size: 28px;
+  }
+  .mid-lower-section hr {
+    width: 10%;
+    height: 3px;
+  }
+  .mid-lower-section p {
+    font-size: 16px;
+  }
+}
+
 .schedule-wrapper {
   background-image: url(../Assets/background-img.jpg);
   padding: 15px;
@@ -371,6 +524,38 @@
   font-size: 15px;
 }
 
+@media (min-width: 768px) {
+  .schedule-wrapper {
+    padding: 50px;
+  }
+  .schedule-wrapper hr {
+    height: 3px;
+  }
+  .schedule-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .schedule-container {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 30px 5px 20px 5px;
+  }
+  .schedule-container .row {
+    padding: 20px 10px 20px 10px;
+  }
+  .schedule-container .row .col-8 {
+    border-left: 2px solid #272a31;
+  }
+  .schedule-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .schedule-header h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
 @font-face {
   font-family: "Cocogoose";
   src: local("cocogoose"), url("../Fonts/cocogoose/Cocogoose Pro-trial.ttf");
@@ -393,13 +578,6 @@ header nav i {
   color: #272a31;
   font-size: 30px;
   padding: 15px;
-}
-
-@media (min-width: 768px) {
-  header nav {
-    align-items: center;
-    padding: 10px 10px 5px 10px;
-  }
 }
 
 header nav a img {
@@ -471,5 +649,51 @@ header nav div a {
 .bottom-footer .copyright p {
   font-size: 12px;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  header {
+    color: #272a31;
+    background-image: url(../Assets/background-img.jpg);
+    padding-bottom: 15px;
+  }
+  header nav {
+    align-items: center;
+    padding: 50px;
+  }
+  header nav a img {
+    width: 40%;
+  }
+  .top-footer {
+    padding-top: 40px;
+  }
+  .top-footer h1 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .top-footer hr {
+    width: 5%;
+    height: 3px;
+    margin: 30px auto;
+  }
+  .top-footer .fab {
+    font-size: 40px;
+  }
+  .top-footer .top-icons {
+    padding-bottom: 35px;
+  }
+  .top-footer .bottom-icons {
+    padding-bottom: 35px;
+  }
+  .bottom-footer img {
+    width: 25%;
+    flex: 1;
+  }
+  .bottom-footer .copyright {
+    flex: 4;
+  }
+  .bottom-footer .copyright p {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
