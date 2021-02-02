@@ -4,7 +4,7 @@
 
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-![screenshot](./screenshot.png)
+![screenshot](Assets/screenshot.PNG)
 
 Additional description about the project and its features.
 
