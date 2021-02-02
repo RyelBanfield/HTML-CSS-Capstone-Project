@@ -5,7 +5,9 @@
 
 @font-face {
   font-family: "Cocogoose";
-  src: local("cocogoose"), url("./Fonts/cocogoose/CocogoosePro-trial.ttf");
+  src:
+    local("cocogoose"),
+    url("./Fonts/cocogoose/CocogoosePro-trial.ttf") format("truetype");
 }
 
 * {
