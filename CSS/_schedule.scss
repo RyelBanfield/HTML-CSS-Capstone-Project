@@ -1,0 +1,49 @@
+.schedule-wrapper {
+  background-image: url(../Assets/background-img.jpg);
+  padding: 15px;
+
+  h1 {
+    text-align: center;
+    color: $darkColor;
+  }
+
+  hr {
+    color: $highlightColor;
+    width: 10%;
+    height: 2px;
+    margin: 15px auto;
+  }
+
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.schedule-container {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 30px 5px 20px 5px;
+
+  .row {
+    padding: 15px 5px 15px 5px;
+    border: 2px solid $darkColor;
+
+    .col-8 {
+      border-left: 1px solid $darkColor;
+    }
+  }
+}
+
+.schedule-header {
+  h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 15px;
+  }
+}

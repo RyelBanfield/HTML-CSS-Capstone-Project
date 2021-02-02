@@ -323,6 +323,54 @@
   font-weight: 900;
 }
 
+.schedule-wrapper {
+  background-image: url(../Assets/background-img.jpg);
+  padding: 15px;
+}
+
+.schedule-wrapper h1 {
+  text-align: center;
+  color: #272a31;
+}
+
+.schedule-wrapper hr {
+  color: #ec5242;
+  width: 10%;
+  height: 2px;
+  margin: 15px auto;
+}
+
+.schedule-wrapper p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.schedule-container {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 30px 5px 20px 5px;
+}
+
+.schedule-container .row {
+  padding: 15px 5px 15px 5px;
+  border: 2px solid #272a31;
+}
+
+.schedule-container .row .col-8 {
+  border-left: 1px solid #272a31;
+}
+
+.schedule-header h1 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.schedule-header h2 {
+  text-align: left;
+  font-size: 15px;
+}
+
 @font-face {
   font-family: "Cocogoose";
   src: local("cocogoose"), url("../Fonts/cocogoose/Cocogoose Pro-trial.ttf");
@@ -333,7 +381,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  border: 1px solid black;
 }
 
 header {
