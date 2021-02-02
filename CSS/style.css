@@ -1,6 +1,6 @@
 header {
   color: #272a31;
-  background-image: url(/Assets/background-img.jpg);
+  background-image: url(../Assets/background-img.jpg);
 }
 
 header nav i {
@@ -412,7 +412,7 @@ header {
 
 @font-face {
   font-family: "Cocogoose";
-  src: local("cocogoose"), url("/Fonts/cocogoose/Cocogoose Pro-trial.ttf");
+  src: local("cocogoose"), url("../Fonts/cocogoose/Cocogoose Pro-trial.ttf");
 }
 
 * {
