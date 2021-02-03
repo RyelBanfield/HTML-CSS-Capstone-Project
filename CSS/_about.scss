@@ -21,7 +21,7 @@
   background-color: white;
   margin: 15px;
   padding: 10px 15px 0 15px;
-  border: 1px solid $lightColor;
+  border: 1px solid black;
 
   p {
     font-size: 13px;
@@ -145,19 +145,20 @@
 
 @media (min-width: 768px) {
   .top-section-about {
-    padding: 50px;
+    padding: 40px 80px;
+    margin: 50px 50px 0 50px;
 
     h1 {
       font-size: 30px;
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 
   .top-mid-section-about {
-    margin: 10px 100px;
+    margin: 20px 100px;
     padding: 20px 100px 10px 100px;
 
     p {
@@ -212,5 +213,35 @@
     p {
       font-size: 16px;
     }
+  }
+
+  .about-images {
+    color: $lightColor;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin: 50px 0;
+  }
+
+  .lg-div-html-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/img-1.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    box-shadow: inset 0 0 0 1000px #ec524280;
+  }
+
+  .lg-div-peer-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/img-2.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    box-shadow: inset 0 0 0 1000px #ec524280;
   }
 }

@@ -19,7 +19,7 @@
 
 header {
   color: $darkColor;
-  background-image: url(../Assets/background-img.jpg);
+  background-color: $lightColor;
   padding-bottom: 15px;
 
   nav {
@@ -104,12 +104,14 @@ header {
 @media (min-width: 768px) {
   header {
     color: $darkColor;
-    background-image: url(../Assets/background-img.jpg);
+    background-color: $lightColor;
     padding-bottom: 15px;
 
     nav {
+      font-size: 14px;
+      background-color: white;
       align-items: center;
-      padding: 50px;
+      padding: 5px 50px 5px 50px;
 
       a {
         flex: 2;
@@ -119,21 +121,30 @@ header {
         }
       }
 
-      .desktop-nav {
-        flex: 3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        a:hover {
-          color: $highlightColor;
-        }
+      .campaign {
+        color: $highlightColor;
+        background-color: white;
+        border: 5px solid $highlightColor;
+        width: 20%;
+        height: 50px;
+        margin: 0;
       }
     }
   }
 
+  .desktop-nav {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  a:hover {
+    color: $highlightColor;
+  }
+
   .top-footer {
-    padding-top: 40px;
+    padding: 40px 0 20px 0;
 
     h1 {
       font-size: 26px;
@@ -150,18 +161,22 @@ header {
       font-size: 40px;
     }
 
-    .top-icons {
-      padding-bottom: 35px;
-    }
-
+    .top-icons,
     .bottom-icons {
       padding-bottom: 35px;
     }
+  }
 
-    .top-icons a:hover,
-    .bottom-icons a:hover {
-      color: $highlightColor;
+  .social-icons-desktop {
+    a {
+      padding: 0;
+      margin: 20px;
     }
+  }
+
+  .top-icons a:hover,
+  .bottom-icons a:hover {
+    color: $highlightColor;
   }
 
   .bottom-footer {

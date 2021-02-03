@@ -17,6 +17,7 @@
 
 .top-mid-section {
   padding: 5px 15px;
+  border: 1px solid $lightColor;
 
   p {
     font-size: 16px;
@@ -118,7 +119,6 @@
 .grad-student {
   display: flex;
   align-items: center;
-  margin: 5px 0;
 
   img {
     width: 70px;
@@ -174,28 +174,33 @@
 
 @media (min-width: 768px) {
   .top-section {
-    padding: 50px;
+    padding: 100px 80px 50px 80px;
 
     h1 {
-      font-size: 30px;
+      font-size: 35px;
+      font-weight: 300;
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 45px;
+      opacity: 0.8;
     }
   }
 
   .top-mid-section {
-    padding: 0 50px;
+    width: 50%;
+    padding: 20px 25px;
+    margin: 0 80px 25px 80px;
+    border: 2px solid white;
 
     p {
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 500;
     }
   }
 
   .top-lower-section {
-    padding: 5px 50px;
+    padding: 40px 80px;
 
     h3 {
       font-size: 22px;
@@ -203,7 +208,7 @@
   }
 
   .the-program {
-    padding: 15px 50px;
+    padding: 45px 50px;
 
     h1 {
       font-size: 28px;
@@ -249,6 +254,10 @@
     }
   }
 
+  .program-item:hover {
+    color: $highlightColor;
+  }
+
   .apply-link {
     text-align: center;
     color: $lightColor;
@@ -261,7 +270,7 @@
   }
 
   .grad-students {
-    padding: 50px;
+    // padding: 50px;
 
     h1 {
       font-size: 26px;
@@ -273,12 +282,14 @@
     }
   }
 
-  .grad-student {
-    margin: 10px 0;
+  .student-wrapper {
+    display: flex;
+  }
 
+  .grad-student {
     img {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
     }
   }
 
@@ -300,10 +311,6 @@
     p {
       font-size: 15px;
     }
-  }
-
-  .students-2 {
-    display: inline;
   }
 
   .more-button {
