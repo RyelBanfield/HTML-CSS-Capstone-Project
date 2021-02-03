@@ -1,6 +1,8 @@
 # HTML/CSS Capstone Project
 
+
 > This is the HTML/CSS Capstone project for Microverse. It contains a website that has been designed to certain specifications given and was built using HTML/CSS and Bootstrap.
+
 
 The design features:
 
