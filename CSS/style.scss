@@ -15,7 +15,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  // border: 1px solid black;
 }
 
 header {
@@ -72,12 +71,7 @@ header {
     color: $lightColor;
   }
 
-  .top-icons {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-  }
-
+  .top-icons,
   .bottom-icons {
     display: flex;
     justify-content: space-evenly;
@@ -118,8 +112,21 @@ header {
       padding: 50px;
 
       a {
+        flex: 2;
+
         img {
-          width: 40%;
+          width: 35%;
+        }
+      }
+
+      .desktop-nav {
+        flex: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        a:hover {
+          color: $highlightColor;
         }
       }
     }
@@ -149,6 +156,11 @@ header {
 
     .bottom-icons {
       padding-bottom: 35px;
+    }
+
+    .top-icons a:hover,
+    .bottom-icons a:hover {
+      color: $highlightColor;
     }
   }
 

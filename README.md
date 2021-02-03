@@ -1,8 +1,15 @@
 # HTML/CSS Capstone Project
 
-> This is the HTML/CSS Capstone Project for Microverse.
+> This is the HTML/CSS Capstone project for Microverse. It contains a website that has been designed to certain specifications given and was built using HTML/CSS and Bootstrap.
 
-Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+The design features:
+
+- 3 pages. Home, About & Schedule.
+- Responsive mobile-first design on all pages.
+- Use of 3 main colors which were given through specifications.
+- Use of 2 fonts which were given through specifications.
+
+Design idea/specifications by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ![screenshot](Assets/screenshot.PNG)
 
