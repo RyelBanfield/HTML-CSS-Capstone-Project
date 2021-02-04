@@ -1,3 +1,19 @@
+.top-bar {
+  background-color: $darkColor;
+  justify-content: flex-end;
+
+  a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px 5px 8px;
+  }
+
+      .logout {
+      padding-right: 80px;
+    }
+}
+
 .top-section {
   color: $highlightColor;
   padding: 5px 15px;

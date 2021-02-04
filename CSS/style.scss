@@ -81,10 +81,10 @@ header {
 
 .bottom-footer {
   display: flex;
+  justify-content: space-evenly;
 
   img {
-    width: 50%;
-    flex: 1;
+    width: 20%;
   }
 
   .copyright {
@@ -92,7 +92,6 @@ header {
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
-    flex: 1;
 
     p {
       font-size: 12px;
@@ -111,13 +110,13 @@ header {
       font-size: 14px;
       background-color: white;
       align-items: center;
-      padding: 5px 50px 5px 50px;
+      padding: 5px 80px 5px 80px;
 
       a {
         flex: 2;
 
         img {
-          width: 35%;
+          width: 25%;
         }
       }
 
@@ -181,15 +180,13 @@ header {
 
   .bottom-footer {
     img {
-      width: 25%;
-      flex: 1;
+      width: 15%;
     }
 
     .copyright {
-      flex: 4;
 
       p {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }
