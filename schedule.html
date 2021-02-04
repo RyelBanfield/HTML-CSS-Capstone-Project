@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="./CSS/style.css" />
+   <title>HTML-CSS Capstone Project by Ryel Banfield</title>
+</head>
+
+<body>
+   <header>
+      <nav class="d-md-flex justify-content-between">
+         <a class="d-md-none" href="#" data-bs-toggle="dropdown">
+            <i class="fas fa-bars "></i>
+         </a>
+         <a class="d-none d-md-inline" href="#">
+            <img src="./Assets/logo-trans.png" alt="LOGO">
+         </a>
+         <div class="mobile-nav dropdown-menu">
+            <a class="d-md-inline dropdown-item" href="index.html">Home</a>
+            <a class="d-md-inline dropdown-item" href="about.html">About</a>
+            <a class="d-md-inline dropdown-item" href="schedule.html">Schedule</a>
+         </div>
+         <div class="desktop-nav">
+            <a class="d-none d-md-inline" href="index.html">Home</a>
+            <a class="d-none d-md-inline" href="about.html">About</a>
+            <a class="d-none d-md-inline" href="schedule.html">Schedule</a>
+            <button class="d-none d-md-inline campaign">Campaign</button>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <div class="schedule-wrapper">
+         <h1>Your Daily Schedule</h1>
+         <hr>
+         <p>Microverse’s immersive, full-time structure assures that you continuously push yourself to your full
+            potential.
+
+            Every day, you’ll complete a coding challenge with your stand-up team and then continue learning with your
+            coding
+            partner through remote pair programming while developing valuable skills that employers look for in
+            candidates.
+         </p>
+      </div>
+      <div class="schedule-container">
+         <div class="schedule-header row bg-light">
+            <h1 class="col-12">Monday - Wednesday - Friday</h1>
+            <h2 class="col-12">Current time zones available: UTC -6 and UTC +1</h2>
+         </div>
+         <!-- <div class="row">
+            <div class="col-4">8 am - 8:30 am</div>
+            <div class="col-8">Morning Stand-Up Team Session</div>
+         </div>
+         <div class="row">
+            <div class="col-4">8:30 am - 12 pm</div>
+            <div class="col-8">Collaborative Learning</div>
+         </div>
+         <div class="row">
+            <div class="col-4">12 pm - 1 pm</div>
+            <div class="col-8">Lunch Break</div>
+         </div>
+         <div class="row">
+            <div class="col-4">1 pm - 5 pm</div>
+            <div class="col-8">Collaborative Learning</div>
+         </div>
+         <div class="row">
+            <div class="col-4">5 pm - 5:15 pm</div>
+            <div class="col-8">Daily Stand-Up Meeting</div> -->
+         <form action="submit">
+            <div class="row">
+               <div class="col-2">Monday</div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="msuts-m" name="session" value="msuts-m">
+                  <label for="msuts-m">Morning Stand-Up Team Session</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-1-m" name="session" value="cl-1-m">
+                  <label for="cl-1-m">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="lb-m" name="session" value="lb-m">
+                  <label for="lb-m">Lunch Break</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-2-m" name="session" value="cl-2-m">
+                  <label for="cl-2-m">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="dsum-m" name="session" value="dsum-m">
+                  <label for="dsum-m">Daily Stand-Up Meeting</label>
+               </div>
+            </div>
+         </form>
+         <form action="submit">
+            <div class="row">
+               <div class="col-2">Thursday</div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="msuts-t" name="session" value="msuts-t">
+                  <label for="msuts-t">Morning Stand-Up Team Session</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-1-t" name="session" value="cl-1-t">
+                  <label for="cl-1-t">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="lb-t" name="session" value="lb-t">
+                  <label for="lb-t">Lunch Break</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-2-t" name="session" value="cl-2-t">
+                  <label for="cl-2-t">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="dsum-t" name="session" value="dsum-t">
+                  <label for="dsum-t">Daily Stand-Up Meeting</label>
+               </div>
+            </div>
+         </form>
+         <form action="submit">
+            <div class="row">
+               <div class="col-2">Friday</div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="msuts-f" name="session" value="msuts-f">
+                  <label for="msuts-f">Morning Stand-Up Team Session</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-1-f" name="session" value="cl-1-f">
+                  <label for="cl-1-f">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="lb-f" name="session" value="lb-f">
+                  <label for="lb-f">Lunch Break</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="cl-2-f" name="session" value="cl-2-f">
+                  <label for="cl-2-f">Collaborative Learning</label>
+               </div>
+               <div class="col-2 d-flex flex-column justify-content-evenly">
+                  <input type="radio" id="dsum-f" name="session" value="dsum-f">
+                  <label for="dsum-f">Daily Stand-Up Meeting</label>
+               </div>
+            </div>
+         </form>
+      </div>
+      <button type="button">Apply Now</button>
+   </main>
+   <footer>
+      <div class="top-footer">
+         <h1>Our Social Media</h1>
+         <hr>
+         <div class="social-icons d-md-none">
+            <div class="top-icons">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="bottom-icons">
+               <a href="#"><i class="fab fa-linkedin"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+         <div class="social-icons-desktop d-none d-md-flex justify-content-center">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+         </div>
+      </div>
+      <div class="bottom-footer">
+         <img src="./Assets/logo-trans.png" alt="LOGO">
+         <div class="copyright">
+            <p>2021 TEKO</p>
+            <p>Some Rights Reserved</p>
+         </div>
+      </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/afced7e812.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
